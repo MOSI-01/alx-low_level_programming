@@ -1,2 +1,2 @@
-#!/bin/bash
-gcc $CFILE -E -o output.c
+#!/bin/bash 
+gcc $CFILE -E -o c
