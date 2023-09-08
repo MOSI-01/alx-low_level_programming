@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints all the numbers from 0 to 9 separated by a comma and space.
+ * Description: Prints all the numbers from 0 to 9 separated by a comma.
  *
  * Return: Always 0 (Success)
  */
