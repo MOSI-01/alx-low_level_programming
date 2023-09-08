@@ -8,12 +8,17 @@
  */
 int main(void)
 {
-char i;
+char letter = 'a';
 
-for (i = 'a' ; i <= 'z'; i++)
-putchar(i);
-if (i != 'q' && i != 'e')
-putchar(i);
+while (letter <= 'z')
+{
+if (letter != 'q' && letter != 'e')
+{
+putchar(letter);
+}
+letter++;
+}
+
 putchar('\n');
 return (0);
 }
