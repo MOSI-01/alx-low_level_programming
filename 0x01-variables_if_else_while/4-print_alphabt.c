@@ -9,16 +9,11 @@
 int main(void)
 {
 char i;
-while (i <= 'z')
-{
-if (i != 'q' && i != 'e')
-{
-putchar(i);
-}
-i++;
-}
-putchar('\n');
 
+for (i = 'a' ; i <= 'z'; i++)
+putchar(i);
+if (i != 'q' && i != 'e')
+putchar(i);
+putchar('\n');
 return (0);
 }
-
