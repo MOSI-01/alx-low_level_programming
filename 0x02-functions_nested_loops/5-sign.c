@@ -20,7 +20,7 @@ return (0);
 else
 {
 _putchar('-');
-_putchar('\n');
 return (-1);
+_putchar('\n');
 }
 }
